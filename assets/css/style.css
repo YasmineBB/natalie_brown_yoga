@@ -1,13 +1,32 @@
 @import url("https://use.typekit.net/vsb8nuu.css");
 
+body {
+  font-family: "Noka";
+}
 /* Navbar */
 
+.navbar {
+}
+
+.alert-container {
+  padding-top: 15px;
+}
+
+.site-wide-alert strong {
+  color: red;
+  padding-right: 5px;
+}
+
+.site-wide-alert {
+  color: gray;
+}
+
 .navbar-brand {
-  font-family: "Noka Black", Sans Serif;
-  font-size: 25px;
-  color: rgb(90, 213, 237);
+  font-family: "Noka", Sans Serif;
+  font-size: 20px;
+  /* color: rgb(90, 213, 237); */
   /* color: #fff; */
-  padding: 10px;
+  /* padding: 10px; */
 }
 
 .nav-item {
@@ -19,5 +38,50 @@
 }
 
 .active {
+  font-weight: 500;
+}
+
+/* Buttons */
+
+.btn-outline-success {
+  color: grey;
+  border: 2px solid rgb(90, 213, 237);
+  font-size: smaller;
+}
+
+.btn-outline-success:hover {
+  background-color: rgb(90, 213, 237);
+  border: 3px solid rgb(90, 213, 237);
+}
+
+/* Callout */
+
+.callout_container {
+  height: 100vh;
+
+  background: url("../images/kef-sea-bg.jpg") no-repeat bottom right;
+  background-size: cover;
+
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  padding-left: 75px;
+  /* color: rgb(28, 24, 22); */
+  color: #fff;
+
+  position: relative;
+}
+
+.opaque-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.15);
+}
+
+.callout_header {
   font-weight: 600;
+  font-size: 60px;
 }
