@@ -1,0 +1,23 @@
+@import url("https://use.typekit.net/vsb8nuu.css");
+
+/* Navbar */
+
+.navbar-brand {
+  font-family: "Noka Black", Sans Serif;
+  font-size: 25px;
+  color: rgb(90, 213, 237);
+  /* color: #fff; */
+  padding: 10px;
+}
+
+.nav-item {
+  font-family: "Noka", Sans Serif;
+}
+
+.nav-item a:hover {
+  color: rgb(90, 213, 237);
+}
+
+.active {
+  font-weight: 600;
+}
