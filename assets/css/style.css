@@ -43,15 +43,45 @@ body {
 
 /* Buttons */
 
+.btn--cta {
+  /* font-weight: bold; */
+  border-radius: 25px;
+  width: 160px;
+}
+
+.btn--light,
+.btn-lg {
+  color: #46a1bf;
+  background-color: #fff;
+  border-color: #fff;
+  border-radius: 25px;
+}
+
+.btn--light:hover,
+.btn--light:active,
+.btn--light:focus,
+.btn--light:active:focus {
+  background-color: #46a1bf;
+  border-color: #fff;
+  color: #fff;
+  cursor: grab;
+}
+
 .btn-outline-success {
   color: grey;
   border: 2px solid rgb(90, 213, 237);
   font-size: smaller;
 }
 
-.btn-outline-success:hover {
+/* .btn-outline-success:hover {
   background-color: rgb(90, 213, 237);
   border: 3px solid rgb(90, 213, 237);
+} */
+
+/* Badges */
+
+.badge {
+  font-size: initial;
 }
 
 /* Callout */
@@ -84,4 +114,18 @@ body {
 .callout_header {
   font-weight: 600;
   font-size: 60px;
+}
+
+/* Features */
+
+.features {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+/* Content Containers */
+
+.content-container {
+  padding-top: 75px;
+  padding-bottom: 75px;
 }
