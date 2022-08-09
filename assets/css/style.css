@@ -43,14 +43,30 @@ body {
 
 /* Buttons */
 
+.btn,
 .btn--cta {
   /* font-weight: bold; */
   border-radius: 25px;
   width: 160px;
 }
 
-.btn--light,
 .btn-lg {
+  color: #46a1bf;
+  background-color: #fff;
+  border-color: #fff;
+  border-radius: 25px;
+}
+
+.btn-lg:hover,
+.btn-lg:active,
+.btn-lg:focus {
+  background-color: #fff;
+  border-color: #fff;
+  color: #46a1bf;
+  font-weight: bold;
+}
+
+.btn--light {
   color: #46a1bf;
   background-color: #fff;
   border-color: #fff;
@@ -77,6 +93,10 @@ body {
   background-color: rgb(90, 213, 237);
   border: 3px solid rgb(90, 213, 237);
 } */
+
+.btn-success {
+  margin: 15px 0;
+}
 
 /* Badges */
 
@@ -109,6 +129,7 @@ body {
   height: 100%;
   width: 100%;
   background-color: rgba(0, 0, 0, 0.15);
+  pointer-events: none;
 }
 
 .callout_header {
@@ -128,4 +149,23 @@ body {
 .content-container {
   padding-top: 75px;
   padding-bottom: 75px;
+}
+
+/* Modal Form */
+
+.modal-header {
+  background-color: #46a1bf;
+}
+
+.modal-title {
+  font-weight: 600;
+  color: #fff;
+}
+
+.modal-body {
+  margin: 25px;
+}
+
+.form-line {
+  margin: 15px 0;
 }
