@@ -114,12 +114,15 @@
               Book a class today and start your journey with us.
             </p>
             <p>
-              <button
-                class="btn btn-lg btn--cta btn--light"
+                <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Book Now
+                  </button>
+              <!-- <button
+                class="btn btn-lg btn--cta"
                 data-toggle="modal"
                 data-target="#signUpModal">
                 Book Now!
-              </button>
+              </button> -->
             </p>
           </section>
         </div>
@@ -183,15 +186,15 @@
                 <form>
                     <div class="form-group">
                         <label for="exampleInputName">Name: </label>
-                        <input type="name" class="form-control" id="exampleInputName"
+                        <input type="name" class="form-control form-line" id="exampleInputName"
                             aria-describedby="emailHelp" placeholder="Enter Name">
                         <label for="exampleInputEmail1">Email address: </label>
-                        <input type="email" class="form-control" id="exampleInputEmail1"
+                        <input type="email" class="form-control form-line" id="exampleInputEmail1"
                             aria-describedby="emailHelp" placeholder="Enter email">
                         <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
                             else.</small>
                     </div>
-                    <select class="form-select" aria-label="Default select example">
+                    <select class="form-select form-line" aria-label="Default select example">
                         <option selected>Select your class</option>
                         <option value="1">Yoga Saturday's</option>
                         <option value="2">Two</option>
