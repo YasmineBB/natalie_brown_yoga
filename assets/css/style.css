@@ -61,6 +61,26 @@ body {
   border: none;
 }
 
+/* Jumbotron */
+
+.jumbotron h1 {
+  /* color: rgb(250, 235, 215); */
+  color: whitesmoke;
+  /* margin-top: 90px; */
+  margin-top: 70px;
+  margin-bottom: 20px;
+  font-weight: 600;
+  line-height: 1.5;
+  font-size: 40px;
+}
+
+.jumbotron .lead {
+  font-weight: 400;
+  /* color: rgb(250, 235, 215); */
+  color: whitesmoke;
+  line-height: 2;
+}
+
 /* Buttons */
 
 .btn,
@@ -132,15 +152,19 @@ body {
 /* Callout */
 
 .callout_container {
-  height: 100vh;
+  /* height: 100vh; */
+  height: 70vh;
 
-  background: url("../images/kef-sea-bg.jpg") no-repeat bottom right;
+  background: url("../images/kef-sea-bg.jpg") no-repeat bottom right fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
 
   display: flex;
   align-items: center;
-  /* justify-content: center; */
-  padding-left: 75px;
+  justify-content: center;
+  padding: 75px;
   /* color: rgb(28, 24, 22); */
   color: #fff;
 
@@ -157,10 +181,10 @@ body {
   pointer-events: none;
 }
 
-.callout_header {
+/* .callout_header {
   font-weight: 600;
-  font-size: 60px;
-}
+  font-size: 50px;
+} */
 
 /* Features */
 
