@@ -2,10 +2,21 @@
 
 body {
   font-family: "Noka";
+  background: url("../images/Rectangle\ 6.png") no-repeat;
+  background-size: cover;
+  position: relative;
+  margin: 20px;
+}
+
+.navbar-background {
+  background-color: white;
+  opacity: 0.95;
+  border-radius: 7px;
 }
 /* Navbar */
 
 .navbar {
+  margin: 10px 0;
 }
 
 .alert-container {
@@ -142,6 +153,13 @@ body {
 .features {
   text-align: center;
   margin-bottom: 40px;
+}
+
+.feature {
+  background-color: #fff;
+  opacity: 0.9;
+  border-radius: 7px;
+  padding: 50px 25px;
 }
 
 /* Content Containers */
